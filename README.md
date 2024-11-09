@@ -33,4 +33,4 @@ I'm a passionate **Cloud Engineer** with experience in **Microsoft Azure, DevOps
 
 ## Get in Touch 📬
 
-- <p>LinkedIn: <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank">Debasis-India</a></p>
+- <p>**LinkedIn**: <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank">Debasis-India</a></p>
