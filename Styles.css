@@ -1,0 +1,166 @@
+/* Reset and font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ffffff;
+    padding: 2rem 0;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #343a40;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #6c757d;
+    margin-bottom: 1.5rem;
+}
+
+header .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+header .navbar a {
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+header .navbar a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 0.7rem 1.5rem;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem;
+    transition: background-color 0.3s;
+}
+
+.button.secondary {
+    background-color: #6c757d;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Section styles */
+section {
+    padding: 4rem 10%;
+    max-width: 800px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 2.2rem;
+    color: #343a40;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.5rem;
+    width: 50px;
+    height: 3px;
+    background-color: #007bff;
+}
+
+/* Content and Lists */
+#about p, #skills ul, #certifications ul, #projects ul, #contact p {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-top: 1rem;
+    line-height: 1.8;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.8rem;
+    color: #6c757d;
+}
+
+/* Dropdown */
+.dropdown button {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.dropdown button:hover {
+    background-color: #0056b3;
+}
+
+.dropdown-content {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-content a {
+    color: #007bff;
+    padding: 0.7rem 1rem;
+    font-weight: 500;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Contact Section Links */
+#contact a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#contact a:hover {
+    color: #0056b3;
+}
