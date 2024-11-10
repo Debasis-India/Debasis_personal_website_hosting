@@ -1,7 +1,7 @@
 const backgrounds = [
-    'url("https://raw.githubusercontent.com/username/repository/main/pic 1.jpg")',
-    'url("https://raw.githubusercontent.com/username/repository/main/pic 2.jpg")',
-    'url("https://raw.githubusercontent.com/username/repository/main/pic 3.jpg")',
+    'url("https://github.com/Debasis-India/Debasis-India/blob/main/pic%201.jpg")',
+    'url("https://github.com/Debasis-India/Debasis-India/blob/main/pic%202.jpg")',
+    'url("https://github.com/Debasis-India/Debasis-India/blob/main/pic%203.jpg")',
 ];
 
 
