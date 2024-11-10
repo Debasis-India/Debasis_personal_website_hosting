@@ -3,63 +3,161 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Debasis Saha - | Cloud Infrastructure Engineer with DevOps Expertis</title>
+    <title>Debasis Saha - Cloud Infrastructure Engineer with DevOps Expertise</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Dropdown Styles */
+        /* General Styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+            line-height: 1.6;
+        }
+
+        h1, h2 {
+            color: #333;
+            margin-top: 0;
+        }
+
+        h1 {
+            font-size: 2.5em;
+        }
+
+        h2 {
+            font-size: 1.8em;
+            margin-bottom: 0.5em;
+            color: #4a90e2;
+        }
+
+        /* Header Styling */
+        .header {
+            background: linear-gradient(to right, #a9c1da, #e4e6e7);
+            color: #fff;
+            padding: 1.5em;
+            text-align: center;
+        }
+
+        .navbar h1 {
+            margin: 0;
+        }
+
+        .navbar ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar ul li {
+            margin: 0 1em;
+        }
+
+        .navbar a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #d4eaff;
+        }
+
+        /* Sections Styling */
+        section {
+            padding: 2em 5%;
+            margin: 1.5em auto;
+            max-width: 800px;
+            background-color: #fdf4f4;
+            border-radius: 8px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        /* Buttons */
+        .buttons a, .button {
+            padding: 0.5em 1em;
+            border-radius: 5px;
+            margin: 0 0.5em;
+            text-decoration: none;
+            font-weight: bold;
+            color: #4a90e2;
+            border: 2px solid #4a90e2;
+            transition: all 0.3s;
+        }
+
+        .buttons a:hover, .button:hover {
+            background-color: #4a90e2;
+            color: #fff;
+        }
+
+        /* Dropdown Styling */
         .dropdown {
-            position: relative;
             display: inline-block;
+            position: relative;
         }
 
         .dropdown-content {
             display: none;
             position: absolute;
-            background-color: #f9f9f9;
+            background-color: #ffffff;
             min-width: 160px;
             box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
             z-index: 1;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: opacity 0.3s ease-in-out;
         }
 
         .dropdown-content a {
-            color: black;
+            color: #4a90e2;
             padding: 12px 16px;
             text-decoration: none;
             display: block;
         }
 
         .dropdown-content a:hover {
-            background-color: #f1f1f1;
+            background-color: #f4f4f9;
         }
 
         .dropdown:hover .dropdown-content {
             display: block;
+            opacity: 1;
+        }
+
+        /* Contact Links */
+        #contact a {
+            color: #4a90e2;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        #contact a:hover {
+            color: #2e8bcb;
         }
     </style>
 </head>
 <body>
-    <div class="background" style="background-image: url('https://github.com/Debasis-India/Debasis-India/blob/main/Background%20cover%20-%20Head(html).jpeg');"></div> <!-- Background div -->
-
-    <!-- Header Section -->
     <header class="header">
         <nav class="navbar">
             <h1>Hey, I'm Debasis</h1>
-            <ul>
-
-                <p>A Cloud Infrastructure Engineer with expertise in DevOps.</p>
-                <div class="buttons">
-                    <nav>
-                        <a href="#About">About</a>
-                        <a href="#skills">Skills</a>
-                        <a href="#certifications">Certifications</a>
-                        <a href="#know-me-better">Know Me Better</a>
-                        <a href="#contact">Contact me</a>
-                        <a href="https://drive.google.com/file/d/1azujmgviet5z0e38v5bgpb9OzXLUNUl1/view?usp=drive_link" target="_blank" class="button secondary">Resume</a>
-                    </nav>
-    </header>
-
-</body>
-</html>
+            <p>A Cloud Infrastructure Engineer with expertise in DevOps.</p>
+            <div class="buttons">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#know-me-better">Know Me Better</a>
+                <a href="#contact">Contact me</a>
+                <a href="https://drive.google.com/file/d/1azujmgviet5z0e38v5bgpb9OzXLUNUl1/view?usp=drive_link" target="_blank" class="button secondary">Resume</a>
+            </div>
+        </nav>
     </header>
 
     <!-- About Section -->
@@ -72,7 +170,8 @@
             I'm passionate about joining communities, mentoring new talent, and volunteering for social causes. I recently started sharing my cloud journey on GitHub to support others entering the cloud space.
 
             When I'm not working, I enjoy reading, traveling, meeting new people, and expanding my network</p>
-    </section>
+    
+        </section>
 
     <!-- Skills Section -->
     <section id="skills">
@@ -87,64 +186,63 @@
         </ul>
     </section>
 
-<!-- Certifications Section -->
-<section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-        <li>
-            <strong>Azure Administrator Associate</strong> - Microsoft, 2023 - Renewal Pending
-            <a href="https://www.credly.com/badges/534d92e3-633a-4b58-9d54-700a7ea66a15?source=linked_in_profile" target="_blank">[Verify]</a>
-        </li>
-        <li>
-            <strong>Azure Fundamentals</strong> - Microsoft, 2020 
-            <a href="https://www.credly.com/badges/af9bea75-399d-489a-bfa6-02741a355084?source=linked_in_profile" target="_blank">[Verify]</a>
-        </li>
-        <li>
-            <strong>Azure AI Fundamentals</strong> - Microsoft, 2021 
-            <a href="https://www.credly.com/badges/46d91401-1e1b-4ceb-a4c1-0c4fbd4c11da?source=linked_in_profile" target="_blank">[Verify]</a>
-        </li>
-        <li>
-            <strong>Azure Data Fundamentals</strong> - Microsoft, 2021 
-            <a href="https://www.credly.com/badges/23de84a3-7171-4260-b26a-9c185f30b091?source=linked_in_profile" target="_blank">[Verify]</a>
-        </li>
-        <li>
-            <strong>AWS Fundamentals (Specialization)</strong> - AWS, 2021 
-            <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NVYRB52FQJLY" target="_blank">[Verify]</a>
-        </li>
-        <li>
-            <strong>Google IT Automation with Python (Professional Certificate)</strong> - Google, 2021 
-            <a href="https://www.youracclaim.com/badges/ff24df2a-7177-45db-a134-1a8307cfd98b?source=linked_in_profile" target="_blank">[Verify]</a>
-        </li>
-        <li>
-            <strong>Google IT Support Professional Certificate</strong> - Google, 2020 
-            <a href="https://www.youracclaim.com/badges/9f0f8a7b-58f9-49c9-a332-b90136dfb323?source=linked_in_profile" target="_blank">[Verify]</a>
-        </li>
-    </ul>
-</section>
-
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <ul>
+            <li>
+                <strong>Azure Administrator Associate</strong> - Microsoft, 2023 - Renewal Pending
+                <a href="https://www.credly.com/badges/534d92e3-633a-4b58-9d54-700a7ea66a15?source=linked_in_profile" target="_blank">[Verify]</a>
+            </li>
+            <li>
+                <strong>Azure Fundamentals</strong> - Microsoft, 2020 
+                <a href="https://www.credly.com/badges/af9bea75-399d-489a-bfa6-02741a355084?source=linked_in_profile" target="_blank">[Verify]</a>
+            </li>
+            <li>
+                <strong>Azure AI Fundamentals</strong> - Microsoft, 2021 
+                <a href="https://www.credly.com/badges/46d91401-1e1b-4ceb-a4c1-0c4fbd4c11da?source=linked_in_profile" target="_blank">[Verify]</a>
+            </li>
+            <li>
+                <strong>Azure Data Fundamentals</strong> - Microsoft, 2021 
+                <a href="https://www.credly.com/badges/23de84a3-7171-4260-b26a-9c185f30b091?source=linked_in_profile" target="_blank">[Verify]</a>
+            </li>
+            <li>
+                <strong>AWS Fundamentals (Specialization)</strong> - AWS, 2021 
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/NVYRB52FQJLY" target="_blank">[Verify]</a>
+            </li>
+            <li>
+                <strong>Google IT Automation with Python (Professional Certificate)</strong> - Google, 2021 
+                <a href="https://www.youracclaim.com/badges/ff24df2a-7177-45db-a134-1a8307cfd98b?source=linked_in_profile" target="_blank">[Verify]</a>
+            </li>
+            <li>
+                <strong>Google IT Support Professional Certificate</strong> - Google, 2020 
+                <a href="https://www.youracclaim.com/badges/9f0f8a7b-58f9-49c9-a332-b90136dfb323?source=linked_in_profile" target="_blank">[Verify]</a>
+            </li>
+        </ul>
+    </section>
 
     <!-- Projects Section -->
     <section id="projects">
         <h2>Projects</h2>
         <ul>
-            <li><a href="https://github.com/Debasis-India/project1" target="_blank">Project 1</a> - Description of the project.</li>
-            <li><a href="https://github.com/Debasis-India/project2" target="_blank">Project 2</a> - Description of the project.</li>
+            <li><a href="https://github.com/Debasis-India/project1" target="_blank">Project 1</a></li>
+            <li><a href="https://github.com/Debasis-India/project2" target="_blank">Project 2</a></li>
             <!-- Add more projects as needed -->
         </ul>
     </section>
 
- <!-- Know Me Better Section -->
- <section id="know-me-better">
-    <h2>Know Me Better</h2>
-    <div class="dropdown">
-        <button>👨🏻‍💻🚀</button>
-        <div class="dropdown-content">
-            <a href="https://drive.google.com/file/d/1azujmgviet5z0e38v5bgpb9OzXLUNUl1/view?usp=drive_link" target="_blank">Resume</a>
-            <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank">LinkedIn</a>
-            <a href="https://github.com/Debasis-India" target="_blank">GitHub</a>
+    <!-- Know Me Better Section -->
+    <section id="know-me-better">
+        <h2>Know Me Better</h2>
+        <div class="dropdown">
+            <button>👨🏻‍💻🚀</button>
+            <div class="dropdown-content">
+                <a href="https://drive.google.com/file/d/1azujmgviet5z0e38v5bgpb9OzXLUNUl1/view?usp=drive_link" target="_blank">Resume</a>
+                <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Debasis-India" target="_blank">GitHub</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -153,8 +251,8 @@
         <p>LinkedIn: <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank">Debasis-India</a></p>
         <p>Twitter: <a href="https://x.com/amDebasis96" target="_blank">Debasis</a></p>
     </section>
-    
-    <script src="script.js"></script> <!-- Link to your JavaScript file --> 
 
+    <script src="script.js"></script> <!-- Link to your JavaScript file --> 
 </body>
 </html>
+
