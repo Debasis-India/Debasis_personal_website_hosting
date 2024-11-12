@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Debasis Saha - Cloud Infrastructure Engineer with DevOps Expertise</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -30,6 +30,22 @@
             font-size: 1.8em;
             margin-bottom: 0.5em;
             color: #4a90e2;
+        }
+
+        /* Additional fixes for very small screens */
+        @media screen and (max-width: 320px) {
+            .navbar h1 {
+                font-size: 1.5rem;
+            }
+
+           .navbar p {
+               font-size: 0.8rem;
+           }
+
+           .buttons a, .button {
+               font-size: 0.8rem;
+               padding: 0.7rem 0.9rem;
+            }
         }
 
         /* Header Styling */
@@ -229,6 +245,13 @@
 </head>
 <body>
 
+    <div class="video-background">
+    <video autoplay muted loop playsinline>
+        <source src="https://videos.pexels.com/video-files/7184232/7184232-uhd_1440_2560_25fps.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
 
     <header class="header">
         <nav class="navbar">
@@ -240,7 +263,7 @@
                 <a href="#certifications">Certifications</a>
                 <a href="#know-me-better">Know Me Better</a>
                 <a href="#contact">Contact me</a>
-                <a href="https://github.com/Debasis-India/Debasis-India/blob/main/Debasis's%20CV_Cloud%20Engineer%202024.pdf" target="_blank" class="button secondary">Resume</a>
+                <a href="https://drive.google.com/file/d/1azujmgviet5z0e38v5bgpb9OzXLUNUl1/view?usp=drive_link" target="_blank" class="button secondary">Resume</a>
             </div>
         </nav>
     </header>
@@ -310,6 +333,8 @@
     <section id="projects">
         <h2>Projects</h2>
         <ul>
+            <li><a href="https://github.com/Debasis-India/project1" target="_blank">Project 1</a></li>
+            <li><a href="https://github.com/Debasis-India/project2" target="_blank">Project 2</a></li>
             <!-- Add more projects as needed -->
         </ul>
     </section>
@@ -320,7 +345,7 @@
         <div class="dropdown">
             <button>👨🏻‍💻🚀</button>
             <div class="dropdown-content">
-                <a href="https://github.com/Debasis-India/Debasis-India/blob/main/Debasis's%20CV_Cloud%20Engineer%202024.pdf" target="_blank">Resume</a>
+                <a href="https://drive.google.com/file/d/1azujmgviet5z0e38v5bgpb9OzXLUNUl1/view?usp=drive_link" target="_blank">Resume</a>
                 <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank">LinkedIn</a>
                 <a href="https://github.com/Debasis-India" target="_blank">GitHub</a>
             </div>
@@ -338,5 +363,4 @@
     <script src="script.js"></script> <!-- Link to your JavaScript file --> 
 </body>
 </html>
-
 
