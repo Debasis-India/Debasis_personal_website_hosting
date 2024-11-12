@@ -10,6 +10,11 @@ body {
     background-color: #f9f9f9;
     color: #333;
     line-height: 1.6;
+    /* Add sophisticated gradient background pattern */
+    background: linear-gradient(135deg, #f5f7fa 0%, #e9ecef 100%);
+    background-attachment: fixed;
+    position: relative;
+
 }
 
 /* Full-screen background */
@@ -23,6 +28,78 @@ body {
     background-size: cover; /* Cover the entire viewport */
     transition: background-image 0.5s ease-in-out; /* Smooth transition */
 }
+
+/* First, add a video container */
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2; /* Behind the geometric overlay */
+    overflow: hidden;
+}
+
+.video-background video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Update the geometric overlay to be more subtle */
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2; /* Reduced opacity to let video show through */
+    z-index: -1;
+    background: linear-gradient(
+        135deg,
+        rgba(74, 144, 226, 0.3) 0%,
+        rgba(231, 173, 217, 0.3) 100%
+    );
+    backdrop-filter: brightness(0.8); /* Slightly dim the video */
+}
+
+/* Enhance glass effect on header */
+header {
+    background: rgba(255, 255, 255, 0.85); /* More transparent */
+    backdrop-filter: blur(15px) brightness(1.1);
+    -webkit-backdrop-filter: blur(15px) brightness(1.1);
+    padding: 2rem 0;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Enhance glass effect on sections */
+section {
+    background: rgba(255, 255, 255, 0.85); /* More transparent */
+    backdrop-filter: blur(15px) brightness(1.1);
+    -webkit-backdrop-filter: blur(15px) brightness(1.1);
+    border-radius: 16px;
+    padding: 4rem 10%;
+    max-width: 800px;
+    margin: 2rem auto;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+/* Add hover effects to sections */
+section:hover {
+    background: rgba(255, 255, 255, 0.9);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
 
 /* Header styles */
 header {
