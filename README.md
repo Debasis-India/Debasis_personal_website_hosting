@@ -1,8 +1,6 @@
 # Hi there, I'm Debasis Saha! 👋
 
 
-
-
 ## About Me 🚀
 
 I'm a passionate **Cloud Engineer** with experience in **Microsoft Azure, DevOps Methodology, Github**. I love tackling complex problems, learning new skills, and collaborating with diverse teams to create innovative solutions.
@@ -11,7 +9,7 @@ I'm a passionate **Cloud Engineer** with experience in **Microsoft Azure, DevOps
 - 🔭 Working on: **Developing an interactive professional website using HTML, CSS and GitHub Pages for hosting**
 - 🌍 Languages: **Python and speak in English**
 - 📫 How to reach me: **debasis.saha.india@gmail.com**
-- ⚡ Fun fact: **I’m a traveler at heart and love discovering new destinations 🌍!**
+- ⚡ Fun fact: **I’m a traveler at heart and love reading awesome writings 📔!**
 
 ## My Skills 🧠
 
@@ -23,14 +21,15 @@ I'm a passionate **Cloud Engineer** with experience in **Microsoft Azure, DevOps
 
 ## Featured Projects 🖥️
 
-### [IFS Disaster Recovery Implementation]
+### i. IFS Disaster Recovery Implementation
 
-**IFS Disaster Recovery Implementation** is a project aimed at ensuring **high availability and business continuity** for critical systems. As a Junior Cloud Engineer, I collaborated on deploying disaster recovery solutions and prepare technical documentation using Azure Site Recovery and backup strategies. My role included setting up recovery protocols, conducting regular DR tests, and fine-tuning infrastructure to meet stringent RPO/RTO requirements.
+**IFS Disaster Recovery Implementation** _is a project aimed at ensuring **high availability and business continuity** for critical systems. As a Junior Cloud Engineer, I collaborated on deploying disaster recovery solutions and prepare technical documentation using Azure Site Recovery and backup strategies. My role included setting up recovery protocols, conducting regular DR tests, and fine-tuning infrastructure to meet stringent RPO/RTO requirements._
 
-### [Cloud Migration from On-Premises]
+### ii. Cloud Migration from On-Premises
 
-**Cloud Migration from On-Premises** involved migrating legacy infrastructure to the cloud, transforming on-premise systems into scalable, cloud-native architectures. As an Cloud Engineer, I assisted in planning and executing the migration of virtual machines, data storage, and applications to Microsoft Azure. This project showcases my hands-on experience in cloud migration, resource optimization, and working closely with development teams for seamless integration. 
+**Cloud Migration from On-Premises** _involved migrating legacy infrastructure to the cloud, transforming on-premise systems into scalable, cloud-native architectures. As an Cloud Engineer, I assisted in planning and executing the migration of virtual machines, data storage, and applications to Microsoft Azure. This project showcases my hands-on experience in cloud migration, resource optimization, and working closely with development teams for seamless integration._
 
 ## Get in Touch 📬
 
-- <p>LinkedIn: <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank"> Debasis ☕︎ </a></p>
+![linkedin](https://github.com/user-attachments/assets/d4186625-5d33-42af-8360-ff593319261b) ➫ <a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank"> Debasis ☕︎ </a></p>
+
