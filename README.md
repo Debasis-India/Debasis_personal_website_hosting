@@ -1,37 +1,57 @@
-# Hi there, I'm Debasis Saha! 👋
+# Hi there, Debasis here! 👋
 
 
-## About Me 🚀
+# Personal Website - [Debasis-India](https://debasis-india.github.io/Debasis_personal_website_hosting/)
 
-I'm a passionate **Cloud Engineer** with experience in **Microsoft Azure, DevOps Methodology, Github**. I love tackling complex problems, learning new skills, and collaborating with diverse teams to create innovative solutions.
+## Overview
+This project showcases my personal website, hosted on GitHub Pages. The website serves as a professional portfolio, highlighting my skills, experience, certifications, and achievements as a Cloud Engineer.
 
-- 🌱 Currently learning: **Advanced DevOps practices and cloud-native applications to enhance automation skills.**
-- 🔭 Working on: **Developing an interactive professional website using HTML, CSS and GitHub Pages for hosting**
-- 🌍 Languages: **Python and speak in English**
-- 📫 How to reach me: **debasis.saha.india@gmail.com**
-- ⚡ Fun fact: **I’m a traveler at heart and love reading awesome writings 📔!**
+## Features
+- **Responsive Design**: Ensures the website is accessible and user-friendly across devices.
+- **Showcased Expertise**: Includes sections on my professional summary, experience, projects, certifications, and contact details.
+- **Simple Deployment**: Built and hosted directly through GitHub Pages for seamless updates and scalability.
 
-## My Skills 🧠
+## Project Details
+- **Hosting Platform**: GitHub Pages
+- **Technologies Used**: 
+  - **HTML5**: Structured the content of the website.
+  - **CSS3**: Styled the website for a visually appealing layout.
+  - **JavaScript**: Added interactivity and dynamic functionality.
+- **Source Code Repository**: [GitHub Repository Link](https://github.com/Debasis-India/Debasis_personal_website_hosting)
 
-![Azure](https://img.shields.io/badge/microsoft%20azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white)
-![PYTHON](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
-![LINUX](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![GITHUB](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
+## Getting Started
+Follow these steps to view or modify the project:
 
+### Prerequisites
+1. **GitHub Account**: Required to clone or fork the repository.
+2. **Basic Knowledge of HTML/CSS/JavaScript**: To make modifications or customizations.
 
-## Featured Projects 🖥️
+### Steps to Clone the Project
+1. Open your terminal or command prompt.
+2. Run the following command:
+   ```bash
+   git clone https://github.com/Debasis-India/Debasis-India.git
+3. Navigate to the project directory:
+      cd Debasis_personal_website_hosting
 
-### i. IFS Disaster Recovery Implementation
+## Deployment
+The project is deployed using GitHub Pages:
 
-**IFS Disaster Recovery Implementation** _is a project aimed at ensuring **high availability and business continuity** for critical systems. As a Junior Cloud Engineer, I collaborated on deploying disaster recovery solutions and prepare technical documentation using Azure Site Recovery and backup strategies. My role included setting up recovery protocols, conducting regular DR tests, and fine-tuning infrastructure to meet stringent RPO/RTO requirements._
+## Navigate to your repository's Settings.
+Under the Pages section, ensure the branch is set to main (or your preferred branch).
+Save the changes, and GitHub Pages will automatically host the website.
 
-### ii. Cloud Migration from On-Premises
+## Customization
+Feel free to fork the repository and make it your own:
 
-**Cloud Migration from On-Premises** _involved migrating legacy infrastructure to the cloud, transforming on-premise systems into scalable, cloud-native architectures. As an Cloud Engineer, I assisted in planning and executing the migration of virtual machines, data storage, and applications to Microsoft Azure. This project showcases my hands-on experience in cloud migration, resource optimization, and working closely with development teams for seamless integration._
+# Update the content in index.html to reflect your personal details.
+# Adjust styles in style.css to match your branding.
 
-## Get in Touch 📬
+# License
+This project is licensed under the MIT License. You're free to use, modify, and distribute it as per the license terms.
 
-<a href="https://www.linkedin.com/in/debasis-saha-india106991hlr" target="_blank"> ![linkedin (1)](https://github.com/user-attachments/assets/9acd9e1d-37a3-47b5-a21c-38875b386e34) </a></p>
-
+# Acknowledgements
+Community Resources: Tutorials and templates that inspired parts of the project design.
+Visitors: Thank you for exploring my portfolio!
 
 
