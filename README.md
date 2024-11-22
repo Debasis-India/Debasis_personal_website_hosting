@@ -17,6 +17,8 @@ This project showcases my personal website, hosted on GitHub Pages. The website 
   - **HTML5**: Structured the content of the website.
   - **CSS3**: Styled the website for a visually appealing layout.
   - **JavaScript**: Added interactivity and dynamic functionality.
+  - **ChatGPT, ClaudeAI**
+  - **vCard - Personal portfolio**
 - **Source Code Repository**: [GitHub Repository Link](https://github.com/Debasis-India/Debasis_personal_website_hosting)
 
 ## Getting Started
