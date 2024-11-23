@@ -3,7 +3,7 @@
 <p align="Left">
     It is a personal website/portfolio template hosted with GitHub Pages, built to showcase my credentilas, works, blogs and many more.
     <br/>
-      <strong>Grab a Coffee ☕ and do check it out! » </strong> 
+      <strong>Grab a Coffee ☕︎ and do check it out! » </strong> 
     <a href="https://debasis-india.github.io/Debasis_personal_website_hosting/">Debasis's portfolio</a>
     <br />
 
@@ -53,7 +53,7 @@
   - GitHub  
   - Web Development  
 - **Blog**  
-  - Coming Soon  
+  - Comming Soon  
 - **Contact**  
   - Contact Form 
 
@@ -64,13 +64,13 @@ Project is open source. Feel free to make your own version. All you need to do i
 ## Prerequisites🔐
 
 1. You should have [Visual studio](https://visualstudio.microsoft.com/) and [Git](https://git-scm.com/) installed on your PC. You should also own a GitHub account.
-2. **Basic Knowledge of HTML/CSS/JavaScript**: To make modifications or customizations and use AI tools if required
+2. Having some basic knowledge of HTML, CSS, and JavaScript can be super handy for making tweaks or customizations—plus, and don’t forget to unleash the power of AI tools whenever you need a boost!
 
 ## Setup and Deployment 🚀
 
 1. To Get Started, Fork this repository to your GitHub account
 2. Open your terminal or command prompt.
-3. To Clone the forked repo from your account to local machine, Run the following command:
+3. To Clone the forked repo from your account to local machine, Run the following commands:
    ```bash
    git clone https://github.com/<your-username>/My_personal_website_hosting.git
 4. Navigate to the project directory:
